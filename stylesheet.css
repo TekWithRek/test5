@@ -1,0 +1,260 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+  }
+
+*{
+    
+    font-family: sans-serif;
+}
+
+/* Nav Section */
+.nav-bar{
+    min-height: 95vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(60, 57, 51, 0), rgba(96, 81, 67, 0.896)), url(photos/website.webp);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    
+
+}
+
+nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+    font-family: 'Cambria';
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+
+.buttons-nav{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.buttons-nav h1{
+    font-weight: 500;
+    font-size: 70px;
+    font-family: 'Protest Guerilla';
+}
+
+.buttons-nav p{
+    margin: 10px 0 40px;
+    font-family: 'Cinzel';
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.SCBtn1{
+    position: relative;
+    background: #ded4cd;
+    color: #08131a;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.SCBtn1:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+/* Bio Section */
+
+.bio-section{
+  display: flex;
+  flex: auto;
+  width: 100%;
+  padding: 35px;
+  justify-content: center;
+  background-color: #908080;
+}
+
+.bio-section img{
+  margin: 0px;
+  border-radius: 100%;
+}
+
+.bio-section h1{
+  margin: 0px;
+  padding: 0%;
+  max-width: fit-content;
+}
+
+.bio-section h2{
+  margin: 0px;
+  padding: 0%;
+  max-width: fit-content;
+}
+
+.bio-section p{
+  line-height: 1.9;
+  margin: 0px;
+  padding: 0%;
+  max-width: fit-content;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #56514B;
+  color: #ebe2e1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+
+.contact-button:hover {
+  transition: 0.9s;
+  background-color: #302b26;
+}
+
+
+/* Hero Section */
+.hero-section{
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s, linear;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to right, #D0CBC7, #D0CBC7);
+}
+
+img{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 3px;
+    width: 250px;
+    height: 300px;
+  }
+  .container{
+    display: grid;
+  
+  }
+  .container__box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 35px;
+  }
+  .container .container__box .box{
+    background: transparent;
+    border-radius: 6px;
+   
+    text-align: center;
+    padding: 20px 30px;
+  }
+  
+  
+  .container__heading{
+    font-family: 'Protest Guerilla';
+    text-align: center;
+    padding-bottom: 40px;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: .2s, linear;
+  }
+  .container .container__box .box h3{
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .container .container__box .box p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #555;
+  }
+  .container .container__box .box a{
+    border-radius: 4px;
+    background:#5b5450;
+    color: white;
+  }
+  .container .container__box .box a:hover{
+    background: #908080;
+  }
+
+/*Contact Info*/
+
+.contact-info{
+  display: flex;
+  flex: auto;
+  width: 100%;
+  padding: 35px;
+  justify-content: center;
+  background-color: #908080;
+}
+
+.contact-info img{
+  margin: 0px;
+  border-radius: 100%;
+}
+
+.contact-info h1{
+  font-family: 'Protest Guerilla';
+  text-align: center;
+  padding-bottom: 40px;
+  color: #272626;
+  font-size: 50px;
+  font-weight: 600;
+  box-sizing: border-box;
+  transition: .2s, linear;
+}
+
+.contact-stuff a{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+
+
